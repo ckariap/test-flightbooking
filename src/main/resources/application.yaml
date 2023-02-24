@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: flight-booking
+  data:
+    mongodb:
+      uri: mongodb://test:test@flightmongo-shard-00-00-54z28.mongodb.net:27017,flightmongo-shard-00-01-54z28.mongodb.net:27017,flightmongo-shard-00-02-54z28.mongodb.net:27017/test?ssl=true&replicaSet=flightMongo-shard-0&authSource=admin&retryWrites=true
+      database: FlightBookings
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,metrics,info
+        
