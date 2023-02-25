@@ -9,7 +9,8 @@ HELP.md
 .project
 .settings
 .springBeans
-.sts4-cache
+.sts4-cachad
+.yaml
 
 ### IntelliJ IDEA ###
 .idea
